@@ -10,8 +10,8 @@ import com.college.entity.DummyTable;
 @Repository
 public interface DummyTableRepo extends JpaRepository<DummyTable, String>{
 	
-	List<DummyTable> findByFirstName(String firstName);
+//	List<DummyTable> findByFirstName(String firstName);
 //	List<DummyTable> findByEmailId(String emailId);
-	String findByEmailId(String emailId);
+//	String findByEmailId(String emailId);
 
 }
